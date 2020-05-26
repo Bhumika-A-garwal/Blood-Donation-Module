@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function xyz(){
+                window.alert("Information Saved Sucessfully!!");
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1 style="color:#8b0000;">Donor Registration<hr/></h1>
+        </center>
+        <p>
+            By registering to donate blood you can also avail the blood bankat select blood banks for respective donors.
+        </p>
+        <h3 style="color:#8b0000;"> Login Details</h3>
+        <form action="">
+            Email ID: 
+            <input type="text" name="Email">
+            <br><br>
+            Password: 
+            <input type="password" name="Password">
+            <br>
+            <h3 style="color:#8b0000;"> Donor Details</h3> 
+            Name:
+            <input type="text" name="Name">
+            <br><br>
+            Date of Birth:
+            <input type="date" name="bday">
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <br><br>
+            Blood Group:
+            <input type="text" name="Blood Group">
+            <br><br>
+            Address:
+            <input type="text" name="address">
+            Pincode:
+            <input type="text" name="pincode">
+            <br><br>
+            Emergency Contact Number:
+            <input type="text" name="mobile">
+            <br><br>
+            <input type="submit" value="Submit" method="post" onclick="xyz()">
+        </form>
+    </body>
+</html>
